@@ -44,9 +44,12 @@ body{
 .search input{
   border:none;
   outline: none;
+  width: full;
+  background: transparent;
+  color: black;
 }
 .img{
-  background-image: url("/images/copy-icon.png");
+  background-image: url("./images/copy-icon.png");
   height: 2rem;
   width: 2rem;
   background-repeat: no-repeat;
