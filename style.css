@@ -4,7 +4,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "poppins";
-  font-size: 18px;
+  font-size: 1.1rem;
+
 }
 body{
   background: #002339;
@@ -15,16 +16,16 @@ body{
   margin-left: 5rem;
 }
  .container h1{
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 500;
     color: white;
  }
  
  .container span{
-  font-size: 35px;
+  font-size: 2rem;
   font-weight: 500;
   color: green;
-  border-bottom: 4px solid green;
+  border-bottom: .2rem solid green;
 }
 
 .search{
@@ -37,7 +38,7 @@ body{
    margin-top: 1rem;
    border:none;
    outline: none;
-   border-radius:6px ;
+   border-radius:.4rem  ;
    color: black;
 }
 
@@ -48,9 +49,9 @@ body{
   height: 100%;
   overflow: hidden;
   padding-left: 1rem;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-
+  border-top-left-radius: .4rem; 
+  border-bottom-left-radius: .4rem;
+ padding-left: 1rem;
 }
 .img{
   background-image: url("/images/copy-icon.png");
@@ -59,6 +60,7 @@ body{
   background-repeat: no-repeat;
   margin-top: 1rem;
   cursor: pointer;
+  margin-right:.5rem;
 }
 button{
   background: green;
@@ -67,7 +69,61 @@ button{
    margin-top: 1rem;
    border:none;
    outline: none;
-   border-radius:6px ; 
+   border-radius:.4rem ; 
    font-size: 15px;
    font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .search {
+    width: 35%;
+  }
+  button {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .container h1 {
+    font-size: 1.5;
+  }
+  .container span {
+    font-size: 1.6rem;
+  }
+  .search {
+    width: 45%;
+  }
+  button {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .container h1 {
+    font-size: 1.5rem;
+  }
+  .container span {
+    font-size: 1.5rem;
+  }
+  .search {
+    width: 60%;
+  }
+  button {
+    width: 40%;
+  }
 }
