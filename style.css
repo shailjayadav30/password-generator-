@@ -28,6 +28,9 @@ body{
 }
 
 .search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
    background: white;
    height: 3.5rem;
    width: 35%;
@@ -39,17 +42,17 @@ body{
 }
 
 .search input{
-  margin-left: 1rem;
-  padding-top: 1rem;
   border:none;
   outline: none;
-  border-radius:6px ;
 }
-  img{
-  margin-left: 6rem;
+.img{
+  background-image: url("/images/copy-icon.png");
+  height: 2rem;
+  width: 2rem;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
   cursor: pointer;
 }
-
 button{
   background: green;
    height: 2.5rem;
