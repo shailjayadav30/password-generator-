@@ -45,6 +45,8 @@ body{
 .search input{
   border:none;
   outline: none;
+  background: transparent;
+  color: black;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -54,7 +56,7 @@ body{
  padding-left: 1rem;
 }
 .img{
-  background-image: url("/images/copy-icon.png");
+  background-image: url("./images/copy-icon.png");
   height: 2rem;
   width: 2rem;
   background-repeat: no-repeat;
